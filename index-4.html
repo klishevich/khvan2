@@ -1,0 +1,227 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Contacts</title>
+  <meta charset="utf-8">
+  <meta name="format-detection" content="telephone=no"/>
+  <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+  <link rel="stylesheet" href="css/grid.css">
+  <link rel="stylesheet" href="css/style.css">
+
+  <link rel="stylesheet" href="css/google-map.css">
+  <link rel="stylesheet" href="css/mailform.css">
+
+
+  <script src="js/jquery.js"></script>
+  <script src="js/jquery-migrate-1.2.1.js"></script> 
+
+  <!--[if lt IE 9]> 
+  <html class="lt-ie9">
+  <div style=' clear: both; text-align:center; position: relative;'>
+    <a href="http://windows.microsoft.com/en-US/internet-explorer/..">
+      <img src="images/ie8-panel/warning_bar_0000_us.jpg" border="0" height="42" width="820"
+           alt="You are using an outdated browser. For a faster, safer browsing experience, upgrade for free today."/>
+    </a>
+  </div>
+  <script src="js/html5shiv.js"></script>
+  <![endif]-->
+
+  <script src='js/device.min.js'></script>
+</head>
+<body>
+<div class="page">
+  <!--========================================================
+                            HEADER
+  =========================================================-->
+  <header>
+    <section class="top_header wow fadeIn ">
+      <div class="container">
+        <p>
+          <i class="material-design-map103"></i>
+           4578 Marmora Road, Glasgow D04 89GR
+        </p>
+        <p>
+          <i class="material-design-clock100"></i>
+           Hours:   6 am -4 pm PST M - Th;  6 am - 3 pm  PST Fri
+        </p>
+        <p>
+          <i class="material-design-phone370"></i>
+           <a href="callto:#">800-2345-6789</a>
+        </p>
+      </div>
+    </section>
+
+    <div id="stuck_container" class="stuck_container">
+      <div class="container">
+        <div class="brand">
+          <h1 class="brand_name">
+            <a href="./"><span>Steel</span> industry</a>
+          </h1>
+        </div>
+        <nav class="nav">
+          <ul class="sf-menu" data-type="navbar">
+            <li>
+              <a href="./">Home</a>
+              <ul>
+                <li>
+                  <a href="#">Lorem ipsum dolor</a>
+                </li>
+                <li>
+                  <a href="#">Conse ctetur</a>
+                </li>
+                <li>
+                  <a href="#">Elit sed do eiusmod</a>
+                  <ul>
+                    <li>
+                      <a href="#">Lorem</a>
+                    </li>
+                    <li>
+                      <a href="#">Dolor</a>
+                    </li>
+                    <li>
+                      <a href="#">Sit amet</a>
+                    </li>
+                  </ul>
+                </li>
+                <li>
+                  <a href="#">Incididunt ut</a>
+                </li>
+                <li>
+                  <a href="#">Et dolore magna </a>
+                </li>
+                <li>
+                  <a href="#">Ut enim ad minim</a>
+                </li>
+              </ul>
+            </li>
+            <li>
+              <a href="index-1.html">About</a>
+            </li>
+            <li>
+              <a href="index-2.html">Services</a>
+            </li>
+            <li>
+              <a href="index-3.html">Gallery</a>
+            </li>
+            <li class="active">
+              <a href="index-4.html">Contacts</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+
+
+    </div>
+
+
+
+
+  </header>
+  <!--========================================================
+                            CONTENT
+  =========================================================-->
+  <main>
+
+
+    <section class="well8">
+      <div class="container">
+        <h5>get in touch</h5>
+        <h3>contact us</h3>
+          
+          <form method="post" action="bat/rd-mailform.php" class="mailform off2">
+            <input type="hidden" name="form-type" value="contact">
+            <fieldset class="row">
+              <label data-add-placeholder="" class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                <input type="text" name="name" placeholder="Your Name" data-constraints="@LettersOnly @NotEmpty">
+              </label>
+              <label data-add-placeholder="" class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                <input type="text" name="email" placeholder="Your Email" data-constraints="@Email @NotEmpty">
+              </label>
+              <label data-add-placeholder="" class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                <input type="text" name="phone" placeholder="Your Phone Number" data-constraints="@Phone">
+              </label>
+              
+              <label data-add-placeholder="" class="col-lg-12 col-md-12 col-sm-12 col-xs-12 marTop2">
+                <textarea name="message" placeholder="Your Message" data-constraints="@NotEmpty"></textarea>
+              </label>
+              <div class="mfControls col-lg-12  col-md-12 col-sm-12 col-xs-12">
+                <button type="submit" class="btn">Send</button>
+              </div>
+            </fieldset>
+          </form>
+
+
+
+
+        
+      </div>
+    </section>
+
+
+
+
+
+
+
+
+    <section class="well5 bg2">
+      <div class="container">
+        <ul class="row contact-list">
+          <li class="col-lg-3 col-md-6 col-sm-6 col-xs-12  wow fadeIn">
+            <h6><i class="material-design-map103"></i>Address</h6>
+            <address>
+              4578 Marmora Road, Glasgow <br>D04 89GR
+            </address>
+          </li>
+          <li class="col-lg-3 col-md-6 col-sm-6 col-xs-12  wow fadeIn">
+            <h6><i class="material-design-phone370"></i>Phones</h6>
+            <address>
+              <a href="callto:#">800-2345-6789</a><br>
+              <a href="callto:#">800-2345-6790</a>
+            </address>
+          </li>
+          <li class="col-lg-3 col-md-6 col-sm-6 col-xs-12  wow fadeIn">
+            <h6><i class="material-design-clock100"></i>HOURS</h6>
+            <address>
+              6 am -4 pm PST M - Th;<br>6 am - 3 pm  PST Fri
+            </address>
+          </li>
+          <li class="col-lg-3 col-md-6 col-sm-6 col-xs-12  wow fadeIn">
+            <h6><i class="material-design-write20"></i>E-mail</h6>
+            <address>
+              <a href="mailto:#">info@demolink.org</a>
+            </address>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="map">
+      <div id="google-map" class="map_model"></div>
+      <ul class="map_locations">
+            <li data-x="-73.9874068" data-y="40.643180">
+          <p> 9870 St Vincent Place, Glasgow, DC 45 Fr 45. <span>800 2345-6789</span></p>
+        </li>
+      </ul>
+    </section>
+
+
+
+
+  </main>
+
+  <!--========================================================
+                            FOOTER
+  =========================================================-->
+  <footer>
+    <div class="container">
+      Steel Industry  © <span id="copyright-year"></span>. <a href="index-5.html">Privacy Policy</a>
+
+
+    </div>
+  </footer>
+</div>
+
+<script src="js/script.js"></script>
+</body>
+</html>
