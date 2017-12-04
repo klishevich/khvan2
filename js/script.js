@@ -72,7 +72,7 @@ include('js/jquery.easing.1.3.js');
 
 /* SMOOTH SCROLLING
  ========================================================*/
-include('js/rd-smoothscroll.min.js');
+// include('js/rd-smoothscroll.min.js');
 
 
 /* Copyright Year
